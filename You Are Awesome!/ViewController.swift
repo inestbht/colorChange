@@ -33,7 +33,7 @@ class ViewController: UIViewController {
             imageView.image = UIImage(named: "image2")
         } else if messageLabel.text == amazingMessage {
             messageLabel.text = fabulousMessage
-            messageLabel.textColor = UIColor.cyan
+            messageLabel.textColor = UIColor.yellow
             imageView.image = UIImage(named: "image3")
         } else {
             messageLabel.text = awesomeMessage
